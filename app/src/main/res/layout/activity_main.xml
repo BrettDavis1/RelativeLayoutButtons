@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/_1" />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_toEndOf="@id/btn_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/_2" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toEndOf="@id/btn_2"
+        android:text="@string/_3" />
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_below="@id/btn_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/_4" />
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_below="@id/btn_2"
+        android:layout_toEndOf="@id/btn_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/_5" />
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_below="@id/btn_3"
+        android:layout_toEndOf="@id/btn_5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/_6" />
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_below="@id/btn_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/_7" />
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_below="@id/btn_5"
+        android:layout_toEndOf="@id/btn_7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/_8" />
+    <Button
+        android:id="@+id/btn_9"
+        android:layout_below="@id/btn_6"
+        android:layout_toEndOf="@id/btn_8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/_9" />
+    <Button
+        android:id="@+id/btn_asterisk"
+        android:layout_below="@id/btn_7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/asterisk" />
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_below="@id/btn_8"
+        android:layout_toEndOf="@id/btn_asterisk"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/_0" />
+    <Button
+        android:id="@+id/btn_pound"
+        android:layout_below="@id/btn_9"
+        android:layout_toEndOf="@id/btn_0"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/pound" />
+
+</RelativeLayout>
