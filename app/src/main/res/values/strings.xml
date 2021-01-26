@@ -13,4 +13,14 @@
     <string name="asterisk">*</string>
     <string name="_0">0</string>
     <string name="pound">#</string>
+    <string name="name">Name</string>
+    <string name="x">x</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="i_read_and_agree_to">I read and agree to</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">Sign in</string>
 </resources>
