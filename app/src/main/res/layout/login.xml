@@ -70,6 +70,13 @@
         app:drawableEndCompat="@drawable/ic_baseline_remove_red_eye_24"
         android:inputType="textPassword"
         android:autofillHints=""/>
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_below="@id/password"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <TextView
         android:id="@+id/agree"
         android:layout_marginTop="25dp"
